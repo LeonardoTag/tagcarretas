@@ -107,6 +107,11 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.cartao-oficina a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
 /* Contato */
 
 #seccao-contato {
