@@ -19,17 +19,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif; 
     font-weight: 700;
+    text-align: center;
 }
 
 /* Abrangentes */
 
 .seccao {
-    padding: 0 12.5%;
+    padding: 50px 12.5%;
 }
 
 @media (max-width: 1200px) {
     .seccao {
-        padding: 2%;
+        padding: 50px 5%;
 }
 }
 
@@ -37,11 +38,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #seccao-barra-de-navegacao {
     background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logomarca-barra-de-navegacao {
     width: 150px;
-    padding: 20px 0 0;
+    padding: 0;
 }
 
 .item-barra-de-navegacao {
@@ -54,8 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Carrossel */
 
 #seccao-carrossel {
-    background-color: #EB1E25;
+    background-color: #06123C;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .imagem-carrossel {
@@ -63,18 +68,55 @@ h1, h2, h3, h4, h5, h6 {
     margin: 40px;
 }
 
+@media (max-width: 1200px) {
+    .imagem-carrossel {
+        height: 150px;
+}
+}
+
 /* Serviços */
 
-
+#seccao-servicos {
+    background-color: #FFFFFF;
+}
 
 /* Oficinas */
 
+#seccao-oficinas {
+    background-color: #06123C;
+    color: #FFFFFF;
+}
 
+.cartao-oficina .card-header {
+    color: #EB1E25;
+}
+
+.cartao-oficina .card-body {
+    font-size: 1.25rem;
+}
+
+
+.cartao-oficina {
+    background-color: #00002d;
+    text-align: center;
+    margin: 3%;
+    padding: 3%;
+}
+
+.cartao-oficina a {
+    color: white;
+}
 
 /* Contato */
 
-
+#seccao-contato {
+    background-color: #FFFFFF;
+}
 
 /* Rodapé */
 
+#seccao-rodape {
+    background-color: #06123C;
+    color: #FFFFFF;
+}
 
