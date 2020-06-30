@@ -57,7 +57,8 @@ section {
     padding: 5px 20px 0;
 }
 
-/* Carrossel */
+/* Fundação */
+
 
 #fundacao {
     background-color: #FFFFFF;
@@ -73,6 +74,17 @@ section {
     border-bottom: solid 1px #06123C;
     width: 30%;
 }
+
+@media (max-width: 1200px) {
+    #fundacao hr {
+        width: 60%;
+    }
+    #fundacao {
+        font-size: 1.75rem;
+    }
+}
+
+/* Carrossel */
 
 #carrossel {
     background-color: #06123C;
