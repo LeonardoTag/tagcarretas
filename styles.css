@@ -186,17 +186,23 @@ section {
     background-color: #06123C;
     color: #FFFFFF;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
+    line-height: 2;
     margin: 0;
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-.icone-rodape:link, .icone-rodape:visited {
-    margin: 0 40px;
+.link-rodape:link, .link-rodape:visited {
+    margin: 0 30px;
     color: #FFFFFF;
 }
 
-.icone-rodape:hover {
+.link-rodape:hover {
     color: lightgray;
+    text-decoration: none;
+}
+
+.icone-rodape {
+    font-size: 2.5rem;
 }
