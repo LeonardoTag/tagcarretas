@@ -135,7 +135,7 @@ section {
 
 @media (max-width: 1200px) {
     #oficinas .card {
-        margin: 5px;
+        margin: 20px 5px;
     }
 }
 
