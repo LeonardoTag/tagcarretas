@@ -122,7 +122,6 @@ section {
 #oficinas {
     background-color: #06123C;
     color: #FFFFFF;
-    padding: 60px;
 }
 
 #oficinas h1 {
@@ -134,9 +133,6 @@ section {
 }
 
 @media (max-width: 1200px) {
-    #oficinas {
-        padding: 60px 10px;
-    }
     #oficinas .card {
         margin: 20px 5px;
     }
