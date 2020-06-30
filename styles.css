@@ -42,7 +42,7 @@ section {
 #barra-de-navegacao {
     background-color: #FFFFFF;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .logomarca-barra-de-navegacao {
@@ -65,7 +65,7 @@ section {
     text-align: center;
     font-size: 2.75rem;
     font-family: 'Tangerine', cursive;
-    padding: 5px;
+    padding: 1px;
 }
 
 #fundacao hr {
@@ -115,6 +115,15 @@ section {
 #oficinas {
     background-color: #06123C;
     color: #FFFFFF;
+    padding: 60px;
+}
+
+#oficinas h1 {
+    margin-bottom: 40px;
+}
+
+#oficinas .card {
+    margin: 20px 0;
 }
 
 #oficinas .card-body {
@@ -163,11 +172,13 @@ section {
     color: #FFFFFF;
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 0;
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .icone-rodape:link, .icone-rodape:visited {
-    padding: 100px 50px;
+    margin: 0 50px;
     color: #FFFFFF;
 }
 
