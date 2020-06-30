@@ -41,8 +41,15 @@ section {
 
 #barra-de-navegacao {
     background-color: #FFFFFF;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    #barra-de-navegacao {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 
 .logomarca-barra-de-navegacao {
