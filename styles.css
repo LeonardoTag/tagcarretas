@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
-    padding: 5px 20px;
+    padding: 5px 20px 0;
 }
 
 /* Carrossel */
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cartao-oficina a:hover {
-    color: gray;
+    color: #999999;
     text-decoration: none;
 }
 
