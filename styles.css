@@ -8,6 +8,11 @@ Azul: #06123C
 
 /* Tags */
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -22,21 +27,19 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-/* Abrangentes */
-
-.seccao {
+section {
     padding: 50px 12.5%;
 }
 
 @media (max-width: 1200px) {
-    .seccao {
+    section {
         padding: 50px 5%;
 }
 }
 
 /* Barra de Navegação */
 
-#seccao-barra-de-navegacao {
+#barra-de-navegacao {
     background-color: #FFFFFF;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -56,7 +59,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Carrossel */
 
-#seccao-carrossel {
+#fundacao {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 2.75rem;
+    font-family: 'Tangerine', cursive;
+    padding: 5px;
+}
+
+#fundacao hr {
+    border: none;
+    border-top: solid 1px #06123C;
+    border-bottom: solid 1px #06123C;
+    width: 30%;
+}
+
+#carrossel {
     background-color: #06123C;
     text-align: center;
     padding-top: 20px;
@@ -76,15 +94,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Serviços */
 
-#seccao-servicos {
+#servicos {
     background-color: #FFFFFF;
 }
 
 /* Oficinas */
 
-#seccao-oficinas {
+#oficinas {
     background-color: #06123C;
     color: #FFFFFF;
+}
+
+#oficinas .card-body {
+    padding: 10px;
+}
+
+#oficinas  p {
+    margin-bottom: 5px;
 }
 
 .cartao-oficina .card-header {
@@ -99,29 +125,40 @@ h1, h2, h3, h4, h5, h6 {
 .cartao-oficina {
     background-color: #00002d;
     text-align: center;
-    margin: 3%;
-    padding: 3%;
+    margin: 1%;
+    padding: 1%;
 }
 
 .cartao-oficina a {
-    color: white;
+    color: #FFFFFF;
 }
 
 .cartao-oficina a:hover {
-    color: #999999;
+    color: lightgray;
     text-decoration: none;
 }
 
 /* Contato */
 
-#seccao-contato {
+#contato {
     background-color: #FFFFFF;
 }
 
 /* Rodapé */
 
-#seccao-rodape {
+#rodape {
     background-color: #06123C;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.icone-rodape:link, .icone-rodape:visited {
+    padding: 100px 50px;
     color: #FFFFFF;
 }
 
+.icone-rodape:hover {
+    color: lightgray;
+}
