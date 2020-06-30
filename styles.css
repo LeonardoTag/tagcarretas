@@ -68,7 +68,8 @@ section {
 
 
 #fundacao {
-    background-color: #FFFFFF;
+    background-color: #06123C;
+    color: #FFFFFF;
     text-align: center;
     font-size: 2.75rem;
     font-family: 'Tangerine', cursive;
@@ -77,8 +78,8 @@ section {
 
 #fundacao hr {
     border: none;
-    border-top: solid 1px #06123C;
-    border-bottom: solid 1px #06123C;
+    border-top: solid 1px #FFFFFF;
+    border-bottom: solid 1px #FFFFFF;
     width: 30%;
 }
 
