@@ -175,13 +175,14 @@ section {
 
 #contato {
     background-color: #FFFFFF;
-    font-size: 1.4rem;
+    font-size: 1.75rem;
     white-space: nowrap;
 }
 
 @media (max-width:1200px) {
     #contato {
         padding-left: 10%;
+        font-size: 1.25rem;
     }
 }
 
