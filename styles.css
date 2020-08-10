@@ -23,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
 }
@@ -35,7 +35,7 @@ section {
 @media (max-width: 1200px) {
     section {
         padding: 50px 5%;
-}
+    }
 }
 
 /* Barra de Navegação */
@@ -109,7 +109,7 @@ section {
 @media (max-width: 1200px) {
     .imagem-carrossel {
         height: 150px;
-}
+    }
 }
 
 /* Serviços */
@@ -143,7 +143,7 @@ section {
     padding: 10px 10px 20px;
 }
 
-#oficinas  p {
+#oficinas p {
     margin-bottom: 5px;
 }
 
@@ -174,7 +174,7 @@ section {
 /* Contato */
 
 #contato {
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     font-size: 1.5rem;
     white-space: nowrap;
 }
@@ -183,6 +183,9 @@ section {
     #contato {
         padding-left: 10%;
     }
+}
+
+@media (max-width:1200px) and (min-width:992px) {
     .ultima-coluna-contato {
         text-align: center;
     }
