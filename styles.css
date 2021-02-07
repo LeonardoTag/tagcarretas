@@ -38,6 +38,10 @@ section {
     }
 }
 
+centralizar {
+    text-align: center;
+}
+
 /* Barra de Navegação */
 
 #barra-de-navegacao {
