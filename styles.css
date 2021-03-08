@@ -141,6 +141,12 @@ centralizar {
     margin-bottom: 5px;
 }
 
+@media (max-width: 1200px) {
+    .servico {margin-left: 10%;
+                font-size: 1.25;}
+    .servico-tit {margin-left: 10%;}
+}
+
 /* Unidades */
 
 #unidades
