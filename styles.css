@@ -120,34 +120,59 @@ centralizar {
 
 #servicos {
     background-color: #FFFFFF;
+    color: #06123C;
 }
 
-/* Oficinas */
+.servico-tit {
+    color:#06123C;
+    font-size: 2.125rem;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-#oficinas {
+.servico {
+    color: #EB1E25;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Unidades */
+
+#unidades
+ {
     background-color: #06123C;
     color: #FFFFFF;
 }
 
-#oficinas h1 {
+#unidades
+ h1 {
     margin-bottom: 40px;
 }
 
-#oficinas .card {
+#unidades
+ .card {
     margin: 10px;
 }
 
 @media (max-width: 1200px) {
-    #oficinas .card {
+    #unidades
+     .card {
         margin: 20px 5px;
     }
 }
 
-#oficinas .card-body {
+#unidades
+ .card-body {
     padding: 10px 10px 20px;
 }
 
-#oficinas p {
+#unidades
+ p {
     margin-bottom: 5px;
 }
 
